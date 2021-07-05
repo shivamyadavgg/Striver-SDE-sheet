@@ -4,9 +4,9 @@ for i in {1..30}
 do
     if [ $i -lt 10 ]
     then
-        mkdir DAY-0$i
+        mkdir DAY-0$i && touch DAY-0$i/.gitkeep
     else
-        mkdir DAY-$i
+        mkdir DAY-$i && touch DAY-$i/.gitkeep
     fi
 done
 
